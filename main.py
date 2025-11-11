@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-confirmed = True  # you can change this anytime
+confirmed = False  # you can change this anytime
 
 @app.get("/confirm")
 def get_confirmation():
